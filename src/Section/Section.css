@@ -1,0 +1,15 @@
+.section {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background: #ececec;
+    text-align: left;
+}
+
+.section > div {
+    width: 100%;
+    max-width: 75rem;
+    margin: 2rem 0;
+}

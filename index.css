@@ -1,0 +1,283 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", Arial, sans-serif;
+    font-weight: 400;
+}
+
+body > section {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+body > section > div {
+    width: 100%;
+    max-width: 75rem;
+    margin: 2rem 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+
+
+
+/*공용*/
+
+
+.fill-width {
+    width: 100%;
+}
+
+
+.button {
+    padding: 0.6rem;
+    background-color: transparent;
+    color: black;
+    border: 2px black inset;
+    border-radius: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .2s;
+}
+
+
+
+
+/*헤더*/
+
+
+#header-title-wrapper {
+    position: relative;
+    width: 100%;
+    max-height: 25rem;
+    overflow: hidden;
+    text-align: left;
+}
+
+#header-title-background {
+    width: 100%;
+}
+
+#header-title-content-wrapper {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-title-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 75rem;
+    width: 100%;
+    height: 100%;
+    align-items: left;
+    justify-content: center;
+}
+
+#header-title-content > div {
+    color: white;
+    margin: 0.6rem 1.2rem 0 1.2rem;
+}
+
+#header-title {
+    font-size: 3rem;
+    padding-bottom: 0.6rem;
+}
+
+.header-description {
+    font-size: 1.2rem;
+}
+
+.header-warning {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    color: #999999;
+    font-size: 0.8rem;
+}
+
+
+
+
+/*링크 모음*/
+
+
+#content-outlinks {
+    background: #DEDEDE;
+}
+
+#content-outlinks-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.content-outlink-holder {
+    position: relative;
+    width: 10rem;
+    padding: 1rem;
+}
+
+.content-outlink-image {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.content-outlink-image > img {
+    width: 100%;
+}
+
+
+
+
+/*리스트*/
+
+
+#content-list {
+    background: #DEDEDE;
+}
+
+.content-settings {
+    width: 100%;
+}
+
+.content-settings-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 1.5rem 1rem 0.5rem 1rem;
+}
+
+.content-settings-list {
+    margin: 0 1rem;
+    line-height: 2.4rem;
+}
+
+.content-settings-option {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.content-settings-option.selected {
+    background-color: #494949;
+    color: white;
+}
+
+.content-settings-option.selected:hover {
+    background-color: #000000;
+}
+
+.content-list {
+    width: 100%;
+    cursor: default;
+}
+
+.content-list th {
+    background-color: #0070d1;
+    height: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+.content-list tr {
+    border-bottom: 2px solid #404040;
+}
+
+.content-list td {
+    padding: 0;
+    font-weight: 600;
+}
+
+.content-list .release {
+    width: 8rem;
+    text-align: center;
+}
+
+.content-list .generation {
+    width: 4rem;
+    text-align: center;
+}
+
+.content-list .link {
+    width: 5rem;
+    text-align: center;
+}
+
+.content-list .tags > div {
+    display: inline-block;
+    padding: 2px 0.5rem;
+    margin: 2px;
+    background-color: #000000;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+}
+
+.content-list-line {
+    width: 100%;
+    transition-duration: .2s;
+    background: #494949;
+    color: #ececec;
+    cursor: default;
+}
+
+.content-list-line:hover {
+    background: #393939;
+}
+
+.content-list-line tr {
+    border: none;
+}
+
+.content-list-line .title {
+    padding: 8px 16px;
+}
+
+.content-list-line .tags {
+    padding: 0 0 8px 14px;
+}
+
+.content-list-line .store-button {
+    width: 3rem;
+    display: inline-block;
+    height: 3rem;
+    background-image: url("./ps-store-logo.webp");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+}
+
+.content-list-line .store-button:hover {
+    background-color: #000000;
+    cursor: pointer;
+}

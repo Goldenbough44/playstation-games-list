@@ -1,0 +1,17 @@
+{
+    "list": [
+        {
+            "title": "더 라스트 오브 어스 리마스터드",
+            "title-store": "The Last of Us™ Remastered  PlayStation®Hits (한국어, 영어, 중국어(번체자))",
+            "release": "2018/07/26",
+            "generation": "PS4",
+            "development": "Naughty Dog",
+            "publisher": "Sony Interactive Entertainment",
+            "voice-lang": [ "영어" ],
+            "language": [ "영어", "중국어(번체자)", "한국어" ],
+            "tags": [ "psdeluxe", "tps", "native", "ps4", "ps5", "ko" ],
+            "link": "https://store.playstation.com/product/HP9000-CUSA00559_00-THELASTOFUS00000",
+            "image": "last-of-us-remastered.png"
+        }
+    ]
+}

@@ -1,2 +1,2 @@
-# playtion-games-list
-More clear, recognizable games list for playstation users.
+# PlayStation 게임 리스트
+쉽고 깔끔한 PlayStation 게임 리스트
