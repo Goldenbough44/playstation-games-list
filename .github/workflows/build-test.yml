@@ -8,7 +8,7 @@ on:
     branches:
       - main
     types:
-      [opened, reopened, edited]
+      [opened, reopened, edited, synchronize]
 
 concurrency:
   group: ${{ github.head_ref || github.ref_name }} 
@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   test_build:
-    name: test build
+    name: Test Build
     runs-on: ubuntu-latest
     
     steps:
