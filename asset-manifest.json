@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/playstation-games-list/static/css/main.4f9efe49.css",
+    "main.js": "/playstation-games-list/static/js/main.066ea0db.js",
+    "static/js/787.d19c7ed1.chunk.js": "/playstation-games-list/static/js/787.d19c7ed1.chunk.js",
+    "index.html": "/playstation-games-list/index.html",
+    "main.4f9efe49.css.map": "/playstation-games-list/static/css/main.4f9efe49.css.map",
+    "main.066ea0db.js.map": "/playstation-games-list/static/js/main.066ea0db.js.map",
+    "787.d19c7ed1.chunk.js.map": "/playstation-games-list/static/js/787.d19c7ed1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f9efe49.css",
+    "static/js/main.066ea0db.js"
+  ]
+}
