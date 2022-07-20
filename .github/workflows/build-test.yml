@@ -1,4 +1,4 @@
-name: build test
+name: test build
 
 on:
   push:
@@ -15,8 +15,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    name: Build
+  test_build:
+    name: test build
     runs-on: ubuntu-latest
     
     steps:
