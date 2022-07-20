@@ -2,7 +2,7 @@ import './ContentList.css'
 
 import Section from '../Section/Section'
 import ContentSearch from '../ContentSearch/ContentSearch';
-import ContentOption from '../ContentOption/ContentOption';
+import ContentOption from '../ContentOption';
 
 
 function ContentList() {

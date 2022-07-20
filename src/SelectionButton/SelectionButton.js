@@ -8,7 +8,7 @@ const Button = styled.div`
 const Label = styled.label`
     padding: 0.3rem 0.6rem;
     background-color: transparent;
-    color: #000000;
+    color: black;
     border: 2px black inset;
     border-radius: 16px;
     font-weight: 700;
@@ -61,12 +61,12 @@ const Input = styled.input`
     }
 `;
 
-function RadioButton(props) {
+function SelectionButton(props) {
     return(
         <Button>
             <Input
                 id={props.name + "-" + props.value}
-                type="radio"
+                type="checkbox"
                 name={props.name}
                 value={props.value}
                 onClick={e => e.stopPropagation()}
@@ -83,4 +83,4 @@ function RadioButton(props) {
 }
 
 
-export default RadioButton;
+export default SelectionButton;
