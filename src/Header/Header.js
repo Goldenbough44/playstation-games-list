@@ -1,11 +1,12 @@
 import './Header.css'
 
+import BannerImage from 'assets/images/ps-banner-desktop.webp'
 
 function Header() {
     return (
         <header>
             <div id="header-title-wrapper">
-                <img id="header-title-background" alt="PlayStation" src="img/ps-banner-desktop.webp"/>
+                <img id="header-title-background" alt="PlayStation" src={BannerImage}/>
                 <div id="header-title-content-wrapper">
                     <div id="header-title-content">
                         <div id="header-title">PlayStation 게임 리스트</div>

@@ -1,5 +1,9 @@
 import './OutlinkList.css'
 
+import PSLogo from 'assets/images/ps-logo.svg';
+import PSStoreLogo from 'assets/images/ps-store-logo.webp';
+import PSPlusLogo from 'assets/images/ps-plus-logo.webp';
+
 import Section from '../Section/Section'
 import Button from '../Button/Button'
 
@@ -18,9 +22,9 @@ function OutlinkList() {
     return (
         <Section>
             <div id="content-outlinks-wrapper">
-                <Outlink image={<img alt="playstation" src="img/ps-logo.svg"/>} text="PS 홈페이지 바로가기" link="https://www.playstation.com/" />
-                <Outlink image={<img alt="playstation store" src="img/ps-store-logo.webp"/>} text="PS Store 바로가기" link="https://store.playstation.com/" />
-                <Outlink image={<img alt="playstation plus" src="img/ps-plus-logo.webp"/>} text="PS Plus 바로가기" link="https://www.playstation.com/ps-plus/" />
+                <Outlink image={<img alt="playstation" src={PSLogo}/>} text="PS 홈페이지 바로가기" link="https://www.playstation.com/" />
+                <Outlink image={<img alt="playstation store" src={PSStoreLogo}/>} text="PS Store 바로가기" link="https://store.playstation.com/" />
+                <Outlink image={<img alt="playstation plus" src={PSPlusLogo}/>} text="PS Plus 바로가기" link="https://www.playstation.com/ps-plus/" />
             </div>
         </Section>
     )
