@@ -1,11 +1,9 @@
 import styled from 'styled-components';
-import './ContentOption.css'
-
 
 import RadioList from '../RadioList/RadioList';
 import RadioButton from '../RadioList/RadioButton/RadioButton';
 import SelectionButton from '../SelectionButton/SelectionButton';
-import React, { useMemo, useState } from 'react';
+import React, { useState } from 'react';
 
 
 const Title = styled.div`
@@ -219,6 +217,11 @@ function ContentOption() {
                     onChange={e => handleOnChange(e, "consoleexclusive")}
                 >콘솔독점</SelectionButton>
             </SelectionList>
+            <Title>출시일</Title>
+            <div style={{
+                margin: "0 1rem",
+                lineHeight: "2.4rem"
+            }}>준비중</div>
         </div>
     )
 }
